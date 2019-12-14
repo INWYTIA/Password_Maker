@@ -1,5 +1,10 @@
 var password = {
     length : 0,
+    targetLength : 0,
+    wantUpper : confirm('Uppercase?'),
+    wantLower : confirm('Lowercase?'),
+    wantNum : confirm('Numbers?'),
+    wantSpecial : confirm('Special?'),
     charTypes : ['alpha', 'num', 'special'],
     characters : {
         alpha : ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
@@ -17,4 +22,4 @@ var password = {
 // Computes random numbers according to array length
 // ]
 console.log (password.getCharType())
-console.log (password.getChar(password.getCharType()))
+console.log (password.wantUpper)
