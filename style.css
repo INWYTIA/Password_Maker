@@ -17,7 +17,7 @@ p {
     font-size: 20px;
 }
 .copyright {
-    text-align: center;
+    margin-left: auto; margin-right: auto;
     text-decoration: underline;
     color: black;
 }
@@ -26,4 +26,7 @@ p {
 }
 .bottomMargin {
     margin-bottom: 20px;
+}
+.leftPadding {
+    padding-left: 10px;
 }
