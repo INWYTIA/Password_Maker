@@ -1,0 +1,29 @@
+.headerColor {
+    background-color: #440044;
+}
+.inputColor {
+    background-color: #fff6df;
+}
+.headerText {
+    text-align: center; 
+    padding: 20px;
+    color: #fff6df;
+}
+.backDrop {
+    background-color: #cec7d1;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+}
+.copyright {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.buttonColor {
+    background-color: #660077;
+}
+.bottomMargin {
+    margin-bottom: 20px;
+}
